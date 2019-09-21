@@ -26,7 +26,7 @@ public class MainScript {
 		ExcelReadWrite ER = new ExcelReadWrite();
 		TestData TD = new TestData();
 		
-//===================================tc01====================================
+//===================================tc01===============================================
 @Test(priority=1)
 	public void tc01() throws Exception {
 	if(ER.readValues(TD.filePath, TD.testScenarioSheet, 1, TD.runMode).equalsIgnoreCase("Y")) {
@@ -42,7 +42,7 @@ public class MainScript {
 		ER.writeValues(TD.filePath, TD.testScenarioSheet, 1, TD.status, TD.skip);
 	}
 }		
-//===================================tc02====================================
+//===================================tc02===============================================
 @Test(priority=2)
 	public void tc02() throws Exception {
 	if(ER.readValues(TD.filePath, TD.testScenarioSheet, 2, TD.runMode).equalsIgnoreCase("Y")) {
