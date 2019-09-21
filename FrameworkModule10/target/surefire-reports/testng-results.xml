@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65427" started-at="2019-09-21T17:30:27Z" finished-at="2019-09-21T17:31:32Z">
+    <groups>
+    </groups>
+    <test name="FrameworkModule10" duration-ms="65427" started-at="2019-09-21T17:30:27Z" finished-at="2019-09-21T17:31:32Z">
+      <class name="driverScript.MainScript">
+        <test-method status="PASS" signature="tc01()[pri:1, instance:driverScript.MainScript@367ffa75]" name="tc01" duration-ms="16257" started-at="2019-09-21T18:30:27Z" finished-at="2019-09-21T18:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc02()[pri:2, instance:driverScript.MainScript@367ffa75]" name="tc02" duration-ms="4647" started-at="2019-09-21T18:30:43Z" finished-at="2019-09-21T18:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="tc03()[pri:3, instance:driverScript.MainScript@367ffa75]" name="tc03" duration-ms="19228" started-at="2019-09-21T18:30:48Z" finished-at="2019-09-21T18:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc04()[pri:4, instance:driverScript.MainScript@367ffa75]" name="tc04" duration-ms="18952" started-at="2019-09-21T18:31:07Z" finished-at="2019-09-21T18:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="tc05()[pri:5, instance:driverScript.MainScript@367ffa75]" name="tc05" duration-ms="6305" started-at="2019-09-21T18:31:26Z" finished-at="2019-09-21T18:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+      </class> <!-- driverScript.MainScript -->
+    </test> <!-- FrameworkModule10 -->
+  </suite> <!-- Suite -->
+</testng-results>
